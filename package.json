@@ -1,0 +1,16 @@
+{
+  "name": "discord-bot-project",
+  "version": "1.0.0",
+  "description": "A Discord bot that monitors messages for emails and verifies them against a Google Sheets list.",
+  "main": "src/bot.js",
+  "scripts": {
+    "start": "node src/bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.0.0",
+    "googleapis": "^39.2.0",
+    "dotenv": "^10.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
